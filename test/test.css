@@ -1,0 +1,24 @@
+
+*{
+    box-sizing: border-box; 
+}
+.container {
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    padding: 0 15px;
+
+    background-color: cyan;
+}
+.img__container {
+    height: 390px;
+    flex: 0 1 380px;
+    background-color: brown;
+    border: 1px solid cornflowerblue;
+}
+.img__container img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+
+}

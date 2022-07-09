@@ -1,0 +1,24 @@
+@media (max-width: 920px) {
+    .logo {
+        margin-right: 20px;
+    }
+    .header__menu{
+        flex: 1 1 670px;
+    }
+    .header-menu__item {
+        flex: 1 1 90px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0 16px;
+    }
+    
+}
+@media (max-width: 720px) {
+    .header__menu{
+        display: none;
+    }
+    .header__burger{
+        display: block; 
+    }
+}
+/*  */
