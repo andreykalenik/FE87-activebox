@@ -5,24 +5,24 @@
 body{
     background-color: chartreuse;
 }
-.container {
+.workswall__container {
     max-width: 1200px;
     display: flex;
     padding: 0 15px;
     background-color: cyan;
 }
-.img__container {
+.work-box {
     flex: 0 1 380px;
     background-color: brown;
     border: 1px solid cornflowerblue;
     position: relative;
 }
-.img__container img {
+.work-box img {
     width: 100%;
     height: 100%;
     object-fit: scale-down;
 }
-.text__container{
+.work-box__text-container{
     position: absolute;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ body{
     height: 100%;
     background-color: rgba(100, 0, 0, 0.4)
 }
-.text__block{
+.work-box__text{
     height: 100%;
     display: flex;
     flex-direction: column;
