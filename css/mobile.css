@@ -41,7 +41,6 @@
     }
     .work-box__text-subtitle{
         font-size: 14px;
-        height: 16px;
     }
     .slide__text__container{
         margin-top: 50px;
@@ -98,7 +97,6 @@
     }
     .work-box__text-subtitle{
         font-size: 14px;
-        height: 16px;
     }
     .slide__text__container{
         margin: 16px;
@@ -202,7 +200,7 @@
     }
     .work-box__text-subtitle{
         font-size: 14px;
-        height: 16px;
+
     }
     .slide{
          margin-top: 160px;
