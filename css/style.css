@@ -248,12 +248,13 @@ a:visited{
     overflow: auto;
 }
 .work-box__text-subtitle {
-    height: 21px;
     font-size: 18px;
     line-height: 117%;
     overflow: auto;
 }
-
+.work-box:visited, .work-box__text-container:visited, .work-box__text:visited{ 
+    color: #FFFFFF;
+}
 .work-box:hover .work-box__text-container{
     background: rgba(255, 67, 67, 0.8);
     border: 0.5px solid #FFFFFF;
