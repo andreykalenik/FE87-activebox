@@ -349,8 +349,7 @@ a:visited{
     height: 100%;
 }
 .slide__text__container{
-    display: grid;
-    place-items: center;
+    margin-top: 116px;
     margin-left: 129px;
     margin-right: 16px;
 }
