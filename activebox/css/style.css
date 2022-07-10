@@ -38,23 +38,24 @@ a:visited{
 }
 .header__menu{
     flex: 0 0 670px;
+    height: 100px;
     display: flex;
     flex-flow: row nowrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: flex-end;
-    height: 100px;
     font-weight: 700;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 117%;
     text-transform: uppercase;
 
 }
 
 
 .header-menu__item {
-    flex: 0 0 140px;
+    flex: 0 0 100px;
     height: 97px;
     padding: 36px;
+    white-space: nowrap;
 }
 .header-menu__item:hover{
     border-bottom: 3px solid #BABBC5;
@@ -71,6 +72,7 @@ a:visited{
     position: relative;
     height: 647px;
     /* компенсация надвига на хедед 747+101 */
+    padding: 20px ;
 
 }
 .top img{
@@ -96,7 +98,7 @@ a:visited{
     margin-top: 130px;
     font-weight: 900;
     font-size: 64px;
-    line-height: 75px;
+    line-height: 117%;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -105,7 +107,7 @@ a:visited{
 .top__subtitle {
     margin-top: 24px;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 117%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -123,7 +125,7 @@ a:visited{
     background-color: #FF4343;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 117%;
     text-transform: uppercase;
     text-align: center;
     overflow: hidden;
@@ -173,7 +175,7 @@ a:visited{
     margin: 20px 0;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 117%;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -183,7 +185,7 @@ a:visited{
 .card__subtitle {
   
     font-size: 18px;
-    line-height: 21px;
+    line-height: 117%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -202,6 +204,10 @@ a:visited{
     max-width: 1560px;
     display: flex;
     padding: 0 15px;
+}
+.workswall__subcontainer{
+    display: flex;
+    justify-content: center;
 }
 .work-box {
     flex: 0 1 378px;
@@ -264,7 +270,6 @@ a:visited{
     margin: 114px 0;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
 }
 
 .team__id {
@@ -272,6 +277,10 @@ a:visited{
 .id {
     flex: 0 1 270px;
     margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .id img {
     width: 100%;
@@ -354,7 +363,7 @@ a:visited{
     margin-right: 16px;
 }
 .slide__text {
-    height: 258px;
+    min-height: 258px;
     max-width: 471px;
     font-family: 'Cardo';
     font-style: italic;
@@ -365,7 +374,7 @@ a:visited{
     overflow: auto;
 }
 .slide__text-sign{
-    height: 28px;
+    min-height: 28px;
     margin-top: 28px;
     font-family: 'Raleway';
     font-style: normal;

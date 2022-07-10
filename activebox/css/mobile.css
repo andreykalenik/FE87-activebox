@@ -1,24 +1,133 @@
-@media (max-width: 920px) {
-    .logo {
-        margin-right: 20px;
+@media (min-width: 1170px) and (max-width: 1300px) {
+    .slide__text__container{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 16px;
     }
+} 
+@media (min-width: 991px) and (max-width: 1169px) {
     .header__menu{
-        flex: 1 1 670px;
+        font-size: 12px;
+        flex: 0 1 500px;
     }
     .header-menu__item {
-        flex: 1 1 90px;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0 16px;
+        padding: 36px 16px;
+    }
+    .top img{
+        height: 769px;
+    }
+    .top__title {
+        font-size: 48px;
+    }
+    .top__subtitle {
+        font-size: 18px;
     }
     
+    .top__button{
+        margin-top: 92px;
+        margin-bottom: 126px;
+    }
+    .button {
+        height: 80px;
+        width: 314px;
+    
+    }
+    .slide__text__container{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 16px;
+    }
+    .slide__text {
+        font-size: 24px;
+    }
+    .work-box {
+        flex: 0 1 256px;
+    } 
+}
+@media (min-width: 721px) and (max-width: 990px) {
+    .header__menu{
+        flex: 0 1 400px;
+    }
+    .header-menu__item {
+        padding: 36px 10px;
+        flex-shrink: 1;
+    } 
+    .top__title {
+        margin-top: 60px;
+    }
+    .top__subtitle {
+        margin-top: 24px;
+    }
+    .top__button{
+        margin-top: 40px;
+    }
+    .card__title{
+        font-size: 18px;
+    }
+    .card__subtitle{
+        font-size: 14px;
+    }
+
 }
 @media (max-width: 720px) {
-    .header__menu{
+     .header__menu{
         display: none;
+    }
+    .header__container{
+        border-bottom: none;
     }
     .header__burger{
         display: block; 
+        height: 100px;
+        padding: 23px 0;
+    } 
+    .header__burger img{
+        height: 56px;
+        width: 56px;
+    }
+    .top{
+        height: 474px;
+    }
+    .top img{
+        height: 574px;
+    }
+    .top__title {
+        margin-top: 10px;
+        font-size: 36px;
+    }
+    .top__subtitle {
+        margin-top: 24px;
+        font-size: 14px;
+    }
+    .top__button{
+        width: 280px;
+        height: 60px;
+        padding: 18px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    } 
+    .center{
+        padding: 16px;
+    }
+    .center__container {
+        display: flex; 
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .card{
+        max-width: 90%; 
+    }
+    .card__icon {
+        margin: 41px 20px 20px 20px;
+    }
+    .workswall {
+        padding-top: 35px;;
+    }
+     .workswall__container {
+        flex-wrap: wrap;
+    }
+    .team__container{
+        flex-direction: column;
     }
 }
-/*  */
+
