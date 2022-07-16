@@ -216,6 +216,7 @@ a:visited{
 .work-box {
     flex: 0 1 380px;
     position: relative;
+    border: 1px solid #FFFFFF;
 }
 .work-box img {
     width: 100%;
